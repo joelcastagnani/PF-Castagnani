@@ -99,7 +99,7 @@ a {
     border: solid black 2px;
     padding: 0.5rem;
     margin: 5px;
-}
+} 
 
 
 footer {
@@ -330,9 +330,7 @@ div img {
 
 .lista-desplegable{
     position: absolute;
-    border: 2px solid black;
     list-style: none;
-    padding: 100px;
     display: none;
 }
 .hamburguesa:hover .lista-desplegable{
@@ -340,7 +338,13 @@ div img {
 }
 .item-desplegable{
     padding: 10px;
-    border: solid black 2px;
+    margin: 2px;
+    color: white;
+}
+.contenedor-desplegable{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
 }
 
 
