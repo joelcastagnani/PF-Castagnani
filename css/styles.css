@@ -380,6 +380,20 @@ div img {
     border: 2px solid black;
 }
 
+.main__tarifas--contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__tarifas--contenedor-tabla{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.padding-rigth{
+    padding-right: 3rem;
+}
+
 /*Media querys*/
 @media (min-width: 768px) {
     .flex-container-nav {
@@ -444,6 +458,13 @@ div img {
         display: flex;
         flex-direction: row;
         align-items: center;
+    }
+    .main__tarifas--contenedor{
+    }
+    .main__tarifas--contenedor-tabla{
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
 }
 
