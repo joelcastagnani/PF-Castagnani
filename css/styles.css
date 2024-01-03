@@ -258,7 +258,7 @@ div img {
 }
 .fondo-info {
     display: flex;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
 
     background-image: url("../img/Basecat.jpg");
     background-repeat: no-repeat;
