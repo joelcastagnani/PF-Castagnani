@@ -258,7 +258,7 @@ div img {
 }
 .fondo-info {
     display: flex;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.7);
 
     background-image: url("../img/Basecat.jpg");
     background-repeat: no-repeat;
@@ -348,6 +348,21 @@ div img {
 }
 
 
+.main__escuela{
+    display: flex;
+}
+.main__escuela--contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.main__escuela--contenedor-imagen{
+    width: 100%;
+}
+.main__escuela--contenedor-parrafo{
+    padding-top: 1rem;
+    font-size: larger;
+}
+
 /*Media querys*/
 @media (min-width: 768px) {
     .flex-container-nav {
@@ -400,4 +415,13 @@ div img {
     .hamburguesa:hover .lista-desplegable{
         display: none;
     }
+    .main__escuela--contenedor{
+        flex-direction: row;
+        align-items: center;
+    }
+    .main__escuela--contenedor-parrafo{
+        padding-left: 1rem;
+        font-size: larger;
+    }
 }
+

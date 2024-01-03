@@ -6,9 +6,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La escuela mobile first</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,37 +19,45 @@
     <header>
         <div class="grid-encabezado">
             <div class="hamburguesa">
-                <img src="../img/PNGs/hamburguesa.png" alt="">
+                <img src="../img/PNGs/hamburguesa.png" alt="logo de snowflake">
                 <ul class="lista-desplegable">
-                    <li class="item-desplegable">
-                        <a href="../index.html">
-                            INICIO
-                        </a>
-                    </li>
 
-                    <li>
-                        <a href="../pages/escuela.html" class="item-desplegable">
-                            LA ESCUELA
-                        </a>
-                    </li>
+                    <div class="contenedor-desplegable">
 
-                    <li>
-                        <a href="../pages/servicios.html" class="item-desplegable">
-                            SERVICIOS
-                        </a>
-                    </li>
+                        <li class="item-desplegable">
+                            <a href="../index.html">
+                                INICIO
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="../pages/tarifas.html" class="item-desplegable">
-                            TARIFAS
-                        </a>
-                    </li>
+                        <li class="item-desplegable">
+                            <a href="../pages/escuela.html" class="item-desplegable">
+                                LA ESCUELA
+                            </a>
+                        </li>
 
-                    <li>
-                        <a href="../pages/contacto.html" class="item-desplegable">
-                            CONTACTO
-                        </a>
-                    </li>
+                        <li class="item-desplegable">
+                            <a href="../pages/servicios.html" class="item-desplegable">
+                                SERVICIOS
+                            </a>
+                        </li>
+
+                        <li class="item-desplegable">
+                            <a href="../pages/tarifas.html" class="item-desplegable">
+                                TARIFAS
+                            </a>
+                        </li>
+
+                        <li class="item-desplegable">
+                            <a href="../pages/contacto.html" class="item-desplegable">
+                                CONTACTO
+                            </a>
+                        </li>
+
+
+                    </div>
+
+
                 </ul>
             </div>
 
@@ -92,11 +97,14 @@
         </nav>
     </header>
 
-    <main class="container">
-        <section class="row">
-            <h2 class="col-12 col-md-12">LA ESCUELA</h2>
-            <img class="col-12 col-md-6" src="../img/entrada.jpg" alt="entrada de la escuela">
-            <div class="col-12 col-md-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ducimus, obcaecati
+    <main class="main__escuela">
+        <h2 class="pagina-actual main__escuela--titulo">LA ESCUELA</h2>
+
+        <div class="main__escuela--contenedor">
+            <img src="../img/entrada.jpg" alt="entrada de la escuela" class="main__escuela--contenedor-imagen">
+
+            <p class="main__escuela--contenedor-parrafo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia ducimus,
+                obcaecati
                 quisquam
                 tenetur
                 totam
@@ -118,8 +126,8 @@
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem rerum veritatis assumenda earum
                 culpa
                 quo
-            </div>
-        </section>
+            </p>
+        </div>
     </main>
 
     <footer>
@@ -140,10 +148,6 @@
             <img src="../img/logo-catedral.png" alt="logo-catedral">
         </section><!--imagen de footer-->
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
 </body>
 
 
