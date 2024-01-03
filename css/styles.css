@@ -401,3 +401,18 @@ div img {
         display: none;
     }
 }
+
+
+.main__escuela{
+    display: flex;
+}
+/* .main__escuela--titulo{
+    
+} */
+.main__escuela--imagen{
+    width: 100%;
+    margin: 1rem;
+}
+.main__escuela--parrafo{
+    font-size: large;
+}
