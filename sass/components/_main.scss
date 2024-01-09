@@ -1,0 +1,140 @@
+main {
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    margin: 1rem;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.668);
+    max-width: 1200px;
+    width: 100%;
+}
+main div img {
+    min-width: 46vw;
+}
+main div section ul {
+    list-style: none;
+}
+div img {
+    width: 10vw;
+}/*esto creo que es de las imagenes del carrousel*/
+
+
+
+/*Contenedor FLEX de las secciones del main*/
+.flex-item-main {
+    margin: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 10px;
+    width: 100%;
+}
+.flex-item-main h3:nth-child(1) {
+    grid-column: 1/4;
+}
+.flex-item-main div:nth-child(2) {
+    grid-column: 1/4;
+}
+
+
+
+
+.main__escuela{
+    display: flex;
+}
+.main__escuela--contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.main__escuela--contenedor-imagen{
+    width: 100%;
+}
+.main__escuela--contenedor-parrafo{
+    padding-top: 1rem;
+    font-size: larger;
+}
+
+.main__servicios{
+    display: flex;
+    
+}
+.main__servicios--contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__servicios--contenedor-tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.main__tarifas--contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.main__tarifas--contenedor-tabla{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.carousel-main {
+    display: grid;
+    padding: 16px;
+    max-width: 1200px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
+.tarjeta-carousel {
+    flex-basis: 300px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    /*oculta el exceso de imagen*/
+    padding: 10px;
+}
+
+.btn-info{
+    width: 100px;
+}
+.btn-info:hover{
+    background-color: black;
+}
+
+.fondo-info {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+
+    background-image: url("../img/Basecat.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sections-main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titulo-info{
+    background-color: rgba(1, 1, 1, 0.501);
+    margin-top: 3vh;
+    color: white;
+    padding: 1rem;
+}
+
+.foto-entrada{
+    padding: 1rem;
+    width: 100%;
+}

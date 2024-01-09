@@ -1,0 +1,21 @@
+/*Contenedor FLEX de botones del info*/
+.flex-container-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container-info a {
+    border: none;
+    color: white;
+}
+.flex-item-info{
+    border: solid black 2px;
+    background-color: rgba(1, 1, 1, 0.501);
+}
+.flex-item-info:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+}
