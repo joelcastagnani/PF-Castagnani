@@ -1,0 +1,29 @@
+.section-escuela{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.foto-entrada{
+    padding: 1rem;
+    width: 100%;
+}
+.div-escuela{
+    padding: 1rem
+}
+
+.main__escuela{
+    display: flex;
+}
+.main__escuela--contenedor{
+    display: flex;
+    flex-direction: column;
+}
+.main__escuela--contenedor-imagen{
+    width: 100%;
+}
+.main__escuela--contenedor-parrafo{
+    padding-top: 1rem;
+    font-size: larger;
+}
