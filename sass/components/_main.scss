@@ -8,16 +8,16 @@ main {
     background-color: rgba(255, 255, 255, 0.668);
     max-width: 1200px;
     width: 100%;
-}
-main div img {
-    min-width: 46vw;
-}
-main div section ul {
-    list-style: none;
-}
-
-div img {
-    width: 10vw;
+    div{
+        img{
+            min-width: 46vw;
+        }
+        section{
+            ul{
+                list-style: none;
+            }
+        }
+    }
 }
 
 /*Contenedor FLEX de las secciones del main*/
@@ -32,12 +32,6 @@ div img {
     padding: 10px;
     width: 100%;
 }
-.flex-item-main h3:nth-child(1) {
-    grid-column: 1/4;
-}
-.flex-item-main div:nth-child(2) {
-    grid-column: 1/4;
-}
 
 /*Contenedor FLEX de botones del info*/
 .flex-container-info {
@@ -45,20 +39,21 @@ div img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    a{
+        border: none;
+        color: white;
+    }
 }
-.flex-container-info a {
-    border: none;
-    color: white;
-}
+
 .flex-item-info{
     border: solid black 2px;
     background-color: rgba(1, 1, 1, 0.501);
-}
-.flex-item-info:hover {
-    background-color: black;
-    border: 2px solid white;
-    color: white;
-    padding: 0.5rem 1rem;
+    &:hover{
+        background-color: black;
+        border: 2px solid white;
+        color: white;
+        padding: 0.5rem 1rem;
+    }
 }
 
 .carousel-main {
@@ -76,7 +71,6 @@ div img {
     /*oculta el exceso de imagen*/
     padding: 10px;
 }
-
 .fondo-info {
     display: flex;
     background-color: rgba(0, 0, 0, 0.7);
@@ -93,3 +87,33 @@ div img {
     align-items: center;
 }
 
+/*
+yendome de css _main.scss
+
+main div img {
+    min-width: 46vw;
+}
+
+main div section ul {
+    list-style: none;
+}
+
+.flex-item-main h3:nth-child(1) {
+    grid-column: 1/4;
+}
+.flex-item-main div:nth-child(2) {
+    grid-column: 1/4;
+}
+
+.flex-container-info a {
+    border: none;
+    color: white;
+}
+
+.flex-item-info:hover {
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+*/
