@@ -34,7 +34,6 @@ header div a{
     border: none;
 }
 
-<<<<<<< HEAD
 .contenedor-redes a:nth-child(1):hover{
     background-color: crimson;
     height: 160%;
@@ -48,8 +47,6 @@ header div a{
     background-color: lightblue;
     height: 160%;
 }
-=======
->>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
 
 /*Contenedor GRID del encabezado*/
 .grid-encabezado {
@@ -82,7 +79,6 @@ header div a{
     display: flex;
 }
 
-<<<<<<< HEAD
 .flex-item-nav:hover {
     background-color: black;
     border: 2px solid black;
@@ -94,26 +90,6 @@ header div a{
     color: black;
 }
 
-=======
-
-/*contenedor redes solciales, pero falta la clase padre*/
-.contenedor-redes a:nth-child(1):hover{
-    background-color: crimson;
-    height: 160%;
-
-}
-.contenedor-redes a:nth-child(2):hover{
-    background-color: blue;
-    height: 160%;
-}
-.contenedor-redes a:nth-child(3):hover{
-    background-color: lightblue;
-    height: 160%;
-}
-
-
-/*hamburguesa*/
->>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
 .lista-desplegable{
     position: absolute;
     list-style: none;
@@ -132,17 +108,3 @@ header div a{
     flex-direction: column;
     background-color: black;
 }
-<<<<<<< HEAD
-=======
-
-.flex-item-nav:hover {
-    background-color: black;
-    border: 2px solid black;
-    color: white;
-    padding: 0.5rem 1rem;
-}
-
-.estilo-redes{
-    color: black;
-}
->>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
