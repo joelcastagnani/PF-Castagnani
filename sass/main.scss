@@ -1,11 +1,22 @@
 @import "./base";
 
+<<<<<<< HEAD
 @import "./components/header";
 @import "./components/main";
 @import "./components/footer";
+=======
+@import "./components/footer";
+@import "./components/header";
+@import "./components/main";
+>>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
 
 @import "./pages-sass/index";
 @import "./pages-sass/escuela";
 @import "./pages-sass/servicios";
+<<<<<<< HEAD
 @import "./pages-sass/contacto";
 @import "./pages-sass/tarifas";
+=======
+@import "./pages-sass/tarifas";
+@import "./pages-sass/contacto";
+>>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086

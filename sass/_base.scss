@@ -1,4 +1,9 @@
+<<<<<<< HEAD
 $ff-roboto: "Roboto Condensed" , sans-serif;
+=======
+$ff-roboto: "Roboto Condensed", sans-serif;
+$c-body: #3380FF;
+>>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
 
 * {
     margin: 0;
@@ -9,6 +14,11 @@ $ff-roboto: "Roboto Condensed" , sans-serif;
     border-radius: 15px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
 body {
     min-width: 569px;
     display: flex;
@@ -16,11 +26,16 @@ body {
     align-items: center;
     margin: 1rem;
     max-width: 100%;
+<<<<<<< HEAD
 
     background-color: #3380FF;
 }
 
 
+=======
+    background-color: $c-body;
+}
+>>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
 body main div div {
     padding: 5px;
     margin: 5px;
@@ -33,14 +48,21 @@ th{
     border: 2px solid black;
     padding: 10px;
 }
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
 a {
     border: solid black 2px;
     padding: 0.5rem;
     margin: 5px;
+<<<<<<< HEAD
 } 
+=======
+}
+>>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
 
 .pagina-actual {
     border: 2px black solid;
@@ -52,6 +74,7 @@ a {
 .borde {
     border: 2px solid black;
 }
+<<<<<<< HEAD
 
 .btn-info{
     width: 100px;
@@ -60,6 +83,8 @@ a {
     background-color: black;
 }
 
+=======
+>>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
 .padding-rigth{
     padding-right: 3rem;
 }
@@ -134,4 +159,8 @@ a {
         align-items: center;
         justify-content: space-between;
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> d96b778ef46611f380ec4c3809017d49f4fdf086
