@@ -8,7 +8,24 @@ footer {
     align-items: center;
     max-width: 1200px;
     width: 100%;
+    section{
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+    }
 }
+
+.img-bariloche{
+    border-radius: 0px;    
+}
+
+/*
+yendome de css _footer.scss
+
 footer section ul {
     list-style: none;
     display: flex;
@@ -16,7 +33,7 @@ footer section ul {
     align-items: center;
     gap: 10px;
 }
+*/
 
-.img-bariloche{
-    border-radius: 0px;    
-}
+
+

@@ -8,45 +8,72 @@ header {
     text-align: center;
     max-width: 1200px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.668)
-}
-header nav {
-    border: 2px solid black;
-    display: grid;
-    grid-template-columns: 1;
-    grid-template-rows: repeat(5, 1fr);
-    width: 100%;
-    margin: 10px;
-    display: none;
-}
-header div {
-    padding: 5px;
-    margin: 5px;
-    width: 100%;
-}
-header i{
-    font-size: 2rem;
-}
-header nav a{
-    color: black;
-}
-header div a{
-    border: none;
+    background-color: rgba(255, 255, 255, 0.668);
+
+    nav{
+        border: 2px solid black;
+        display: grid;
+        grid-template-columns: 1;
+        grid-template-rows: repeat(5, 1fr);
+        width: 100%;
+        margin: 10px;
+        display: none;
+        a{
+            color: black;
+        }
+    }
+
+    div{
+        padding: 5px;
+        margin: 5px;
+        width: 100%;
+        a{
+            border: none;
+        }
+    }
+
+    i{
+        font-size: 2rem;
+    }
 }
 
-.contenedor-redes a:nth-child(1):hover{
-    background-color: crimson;
-    height: 160%;
+.contenedor-redes{
+    border-radius: 15px;
+    a{
+        &:nth-child(1){
+            &:hover{
+                background-color: crimson;
+                height: 160%;
+            }
+        }
+        &:nth-child(2){
+            &:hover{
+                background-color: blue;
+                height: 160%;
+            }
+        }
+        &:nth-child(3){
+            &:hover{
+                background-color: cadetblue;
+                height: 160%;
+            }
+        }
+    }
+}
 
-}
-.contenedor-redes a:nth-child(2):hover{
-    background-color: blue;
-    height: 160%;
-}
-.contenedor-redes a:nth-child(3):hover{
-    background-color: lightblue;
-    height: 160%;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Contenedor GRID del encabezado*/
 .grid-encabezado {
@@ -108,3 +135,50 @@ header div a{
     flex-direction: column;
     background-color: black;
 }
+
+
+/*
+yendome de css _header.scss
+
+header nav {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: 1;
+    grid-template-rows: repeat(5, 1fr);
+    width: 100%;
+    margin: 10px;
+    display: none;
+}
+
+header div {
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+header i{
+    font-size: 2rem;
+}
+
+header nav a{
+    color: black;
+}
+
+header div a{
+    border: none;
+}
+
+.contenedor-redes a:nth-child(1):hover{
+    background-color: crimson;
+    height: 160%;
+}
+
+.contenedor-redes a:nth-child(2):hover{
+    background-color: blue;
+    height: 160%;
+}
+.contenedor-redes a:nth-child(3):hover{
+    background-color: cadetblue;
+    height: 160%;
+}
+*/
