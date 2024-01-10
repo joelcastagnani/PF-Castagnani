@@ -4,7 +4,36 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    &-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 1rem;
+        padding: 1rem;
+    }
 }
+.main__servicios{
+    display: flex;
+    &--contenedor{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &-tarjeta{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 2px solid black;
+        }
+    }
+}
+
+
+
+/*
+yendome de css _servicios.scss
+
 .flex-container-servicios-item{
     display: flex;
     flex-direction: column;
@@ -14,19 +43,17 @@
     padding: 1rem;
 }
 
-.main__servicios{
-    display: flex;
-    
-}
 .main__servicios--contenedor{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .main__servicios--contenedor-tarjeta{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    border: 2px solid black;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 2px solid black;
 }
+*/

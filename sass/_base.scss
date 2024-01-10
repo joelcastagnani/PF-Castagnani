@@ -71,7 +71,26 @@ div img {
     width: 10vw;
 }
 
-/*Media querys*/
+
+
+/* yendome de css _base.scss:
+
+body main div div {
+    padding: 5px;
+    margin: 5px;
+    width: 100%;
+}
+
+.btn-info:hover {
+    background-color: black;
+}
+
+
+
+*/
+
+
+/*Media querys
 @media (min-width: 768px) {
     .flex-container-nav {
         display: flex;
@@ -157,18 +176,4 @@ div img {
         align-items: center;
         justify-content: space-between;
     }
-}
-
-/* yendome de css _base.scss:
-
-body main div div {
-    padding: 5px;
-    margin: 5px;
-    width: 100%;
-}
-
-.btn-info:hover {
-    background-color: black;
-}
-
-*/
+}*/

@@ -62,7 +62,6 @@ div img {
   width: 10vw;
 }
 
-
 /* yendome de css _base.scss:
 
 body main div div {
@@ -75,7 +74,96 @@ body main div div {
     background-color: black;
 }
 
+
+
 */
+/*Media querys
+@media (min-width: 768px) {
+    .flex-container-nav {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .carousel-main {
+        display: flex;
+        padding: 16px;
+        overflow: auto;
+        max-width: 1200px;
+    }
+
+    main {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .carousel-main {
+        max-width: 100%;
+    }
+
+    .sections-main {
+        flex-direction: row;
+    }
+
+    .flex-container-contacto {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .flex-container-contacto form:nth-child(1) {
+        border-bottom: none;
+        border-right: 2px solid black;
+        padding-right: 40px;
+    }
+
+    .flex-item-nav {
+        width: 200px;
+    }
+
+    header nav {
+        display: block;
+    }
+
+    .grid-encabezado div img:nth-child(1) {
+        display: none;
+        grid-column: 1/2;
+        grid-row: 1/3;
+    }
+
+    .flex-container-info {
+        flex-direction: row;
+        height: 200px;
+    }
+
+    .flex-container-servicios {
+        flex-direction: row;
+    }
+
+    .hamburguesa:hover .lista-desplegable {
+        display: none;
+    }
+
+    .main__escuela--contenedor {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .main__escuela--contenedor-parrafo {
+        padding-left: 1rem;
+        font-size: larger;
+    }
+
+    .main__servicios--contenedor {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .main__tarifas--contenedor-tabla {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+}*/
 header {
   border: solid 2px black;
   margin: 1rem;
@@ -464,7 +552,6 @@ yendome de css _escuela.scss
   align-items: center;
   text-align: center;
 }
-
 .flex-container-servicios-item {
   display: flex;
   flex-direction: column;
@@ -477,13 +564,11 @@ yendome de css _escuela.scss
 .main__servicios {
   display: flex;
 }
-
 .main__servicios--contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .main__servicios--contenedor-tarjeta {
   display: flex;
   flex-direction: column;
@@ -492,6 +577,32 @@ yendome de css _escuela.scss
   border: 2px solid black;
 }
 
+/*
+yendome de css _servicios.scss
+
+.flex-container-servicios-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.main__servicios--contenedor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__servicios--contenedor-tarjeta{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 2px solid black;
+}
+*/
 /*Contenedor FLEX del formulario de contacto*/
 .flex-container-contacto {
   width: 93vw;
@@ -499,7 +610,6 @@ yendome de css _escuela.scss
   flex-direction: column;
   justify-content: center;
 }
-
 .flex-container-contacto form:nth-child(1) {
   border-bottom: 2px solid black;
   margin: 10px;
@@ -510,26 +620,54 @@ yendome de css _escuela.scss
   text-align: center;
   border-radius: 0px !important;
 }
-
 .flex-container-contacto section:nth-child(2) {
   margin: 10px;
   padding: 10px;
   text-align: center;
 }
 
+/*
+yendome de css _contacto.scss
+
+
+.flex-container-contacto form:nth-child(1) {
+    border-bottom: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 0px !important;
+}
+
+.flex-container-contacto section:nth-child(2) {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+*/
 .main__tarifas--contenedor {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-
 .main__tarifas--contenedor-tabla {
   display: flex;
   flex-direction: column;
   text-align: center;
 }
 
-/*Media querys*/
+/*
+yendome de css _tarifas.scss
+
+.main__tarifas--contenedor-tabla{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+*/
 @media (min-width: 768px) {
   .flex-container-nav {
     display: flex;
