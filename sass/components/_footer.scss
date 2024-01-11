@@ -8,6 +8,8 @@ footer {
     align-items: center;
     max-width: 1200px;
     width: 100%;
+
+    font-size: 0.7rem;
     section{
         ul{
             list-style: none;
@@ -19,8 +21,12 @@ footer {
     }
 }
 
+.footer__img-size{
+    width: 50px;
+}
+
 .img-bariloche{
-    border-radius: 0px;    
+    border-radius: 0px;  
 }
 
 /*

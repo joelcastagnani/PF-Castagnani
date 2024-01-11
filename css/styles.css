@@ -8,7 +8,7 @@
 }
 
 body {
-  min-width: 569px;
+  min-width: 330px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -223,7 +223,7 @@ header i {
   background-image: url(../img/PNGs/pngegg.png);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: contain;
+  background-size: 200px;
   display: grid;
   grid-template-columns: repeat(48, 2.08%);
   grid-template-rows: repeat(14, 20px);
@@ -265,6 +265,7 @@ header i {
 
 .hamburguesa:hover .lista-desplegable {
   display: block;
+  right: 10px;
 }
 
 .item-desplegable {
@@ -467,6 +468,7 @@ footer {
   align-items: center;
   max-width: 1200px;
   width: 100%;
+  font-size: 0.7rem;
 }
 footer section ul {
   list-style: none;
@@ -474,6 +476,10 @@ footer section ul {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+.footer__img-size {
+  width: 50px;
 }
 
 .img-bariloche {

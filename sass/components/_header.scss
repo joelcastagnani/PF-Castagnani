@@ -67,7 +67,7 @@ header {
     background-image: url(../img/PNGs/pngegg.png);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: contain;
+    background-size: 200px;
 
     display: grid;
     grid-template-columns: repeat(48, 2.08%);
@@ -112,6 +112,7 @@ header {
 }
 .hamburguesa:hover .lista-desplegable{
     display: block;
+    right: 10px;
 }
 .item-desplegable{
     padding: 10px;
