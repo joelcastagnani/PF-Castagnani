@@ -11,7 +11,6 @@
 .div-escuela{
     padding: 1rem
 }
-
 .main__escuela{
     display: flex;
     &--contenedor{
@@ -26,21 +25,3 @@
         }
     }
 }
-
-/*
-yendome de css _escuela.scss
-
-.main__escuela--contenedor{
-    display: flex;
-    flex-direction: column;
-}
-
-.main__escuela--contenedor-imagen{
-    width: 100%;
-}
-
-.main__escuela--contenedor-parrafo{
-    padding-top: 1rem;
-    font-size: larger;
-}
-*/
