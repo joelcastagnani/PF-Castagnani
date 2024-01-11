@@ -23,7 +23,10 @@ body main div div {
   width: 100%;
 }
 
-table,
+table {
+  width: 100%;
+}
+
 tr,
 th {
   border: 2px solid black;
@@ -659,6 +662,7 @@ yendome de css _contacto.scss
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-size: 0.6rem;
 }
 .main__tarifas--contenedor-tabla {
   display: flex;
