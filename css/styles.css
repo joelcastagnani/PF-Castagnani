@@ -181,6 +181,32 @@ header i {
   background-color: black;
 }
 
+.header__nav-button {
+  margin: 0.1rem;
+  border: 0;
+  background-image: linear-gradient(150deg, #9500ff, #09f, #00DDFF);
+  border-radius: 15px;
+  color: #fff;
+  display: flex;
+  font-size: 15px;
+  padding: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.header__nav-button span {
+  background-color: #111;
+  padding: 9px 30px;
+  border-radius: 15px;
+  transition: 0.2s;
+}
+.header__nav-button:hover span {
+  background: none;
+}
+.header__nav-button:active {
+  border: 1px solid black;
+  transform: scale(0.8);
+}
+
 main {
   border: 2px solid black;
   display: flex;
