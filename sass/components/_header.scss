@@ -16,7 +16,7 @@ header {
     text-align: center;
     max-width: 1200px;
     width: 100%;
-    background-color: rgba(255, 255, 255, 0.668);
+    background-color: rgba(255, 255, 255, 0.804);
 
     nav{
         border: 2px solid black;
@@ -169,19 +169,7 @@ header {
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* CLASES DEL MENU HAMBURGUESA */
 .navbar {
     border: 2px solid black;
     display: flex;
@@ -234,29 +222,28 @@ header {
     color: $--color_blanco;
     // font-weight: bold;
 }
-@media (min-width: 768px){
-
-    .navbar{
-        justify-content: center;
-    }
-
-    .labe_hamburguesa {
-        display: none;
-    }
-    .ul_links{
-        position: static;
-        width: auto;
-        height: auto;
-        flex-direction: row;
-        gap: 2rem;
-    }
-    .link{
-        font-size: 1.2rem;
-        transition: all .3s;
-        padding:.2rem .7rem;
-        &:hover{
-            background-color: $--color_primario;
-        }
-    }
-
-}
+// @media (min-width: 768px){
+//     .navbar{
+//         display: none;
+//     }
+//     .labe_hamburguesa {
+//         display: none;
+//     }
+//     .ul_links{
+//         position: static;
+//         width: 100%;
+//         height: 100%;
+//         flex-direction: row;
+//         gap: 1rem;
+//         background-color: rgba(255, 255, 255, 0.668);
+//     }
+//     .link{
+//         font-size: 1.2rem;
+//         transition: all 2s;
+//         padding:.2rem .7rem;
+//         color: black;
+//         &:hover{
+//             background-color: $--color_primario;
+//         }
+//     }
+// }
