@@ -70,7 +70,7 @@ header {
 
 /*Contenedor GRID del encabezado*/
 .grid-encabezado {
-    border: solid 2px black;
+    //border: solid 2px black;
 
     background-image: url(../img/PNGs/pngegg.png);
     background-repeat: no-repeat;
@@ -133,7 +133,6 @@ header {
     flex-direction: column;
     background-color: black;
 }
-
 .header__nav-button{
     margin: .1rem;
     border: 0;
@@ -172,7 +171,7 @@ header {
 
 /* CLASES DEL MENU HAMBURGUESA */
 .navbar {
-    border: 2px solid black;
+    border: none;
     display: flex;
     justify-content: end;
     position: relative;
