@@ -36,3 +36,14 @@
         margin: 2px;
     }
 }
+
+.contenedor__text_area{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &-submit{
+        margin: 1rem;
+        width: 150px;
+    }
+}
