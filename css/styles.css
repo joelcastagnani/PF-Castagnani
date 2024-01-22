@@ -240,6 +240,14 @@ header i {
   align-items: center;
   transition: 0.3s;
   list-style: none;
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+.li_links {
+  border: 1px solid white;
+  margin: 2px;
+  width: 100%;
 }
 
 .link {

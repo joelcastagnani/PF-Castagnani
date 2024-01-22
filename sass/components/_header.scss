@@ -220,6 +220,13 @@ header {
     align-items: center;
     transition: .3s;
     list-style: none;
+    padding-left: .7rem;
+    padding-right: .7rem;
+}
+.li_links{
+    border: 1px solid white;
+    margin: 2px;
+    width: 100%;
 }
 .link {
     border: none;
@@ -235,7 +242,6 @@ header {
 
     .labe_hamburguesa {
         display: none;
-
     }
     .ul_links{
         position: static;
