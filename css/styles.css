@@ -415,6 +415,15 @@ footer section ul {
   text-align: center;
 }
 
+.contenedor__datos {
+  display: flex;
+  flex-direction: column;
+}
+.contenedor__datos-usuario {
+  padding: 4px;
+  margin: 2px;
+}
+
 .main__tarifas--contenedor {
   display: flex;
   flex-direction: column;

@@ -26,3 +26,13 @@
         }
     }
 }
+
+.contenedor__datos{
+    display: flex;
+    flex-direction: column;
+
+    &-usuario{
+        padding: 4px;
+        margin: 2px;
+    }
+}
