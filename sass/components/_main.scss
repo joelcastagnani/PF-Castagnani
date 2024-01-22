@@ -53,11 +53,11 @@ main {
     }
 }
 .carousel-main {
-    display: grid;
-    padding: 16px;
-    max-width: 1200px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+        display: flex;
+        padding: 16px;
+        overflow: auto;
+        max-width: 1200px;
+        max-width: 100%;
 }
 .tarjeta-carousel {
     flex-basis: 300px;

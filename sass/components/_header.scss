@@ -92,7 +92,7 @@ header {
         }
         &:nth-child(3){
             grid-column: 1/10;
-            grid-row: 11/14;
+            grid-row: 12/15;
             margin: 10px;
             display: flex;
         }
@@ -112,6 +112,7 @@ header {
 }
 .estilo-redes{
     color: black;
+    font-size: 20px;
 }
 .lista-desplegable{
     position: absolute;
