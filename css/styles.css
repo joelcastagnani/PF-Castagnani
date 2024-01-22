@@ -207,6 +207,70 @@ header i {
   transform: scale(0.8);
 }
 
+.navbar {
+  border: 2px solid black;
+  display: flex;
+  justify-content: end;
+  position: relative;
+}
+
+.menu_hamburguesa {
+  display: none;
+}
+.menu_hamburguesa:checked + .ul_links {
+  height: 20vh;
+}
+
+.list_icon {
+  color: #fff;
+  cursor: pointer;
+}
+
+.ul_links {
+  width: 100%;
+  background-color: black;
+  position: absolute;
+  top: 80px;
+  left: 0;
+  height: 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  list-style: none;
+}
+
+.link {
+  border: none;
+  font-size: 2rem;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    justify-content: center;
+  }
+  .labe_hamburguesa {
+    display: none;
+  }
+  .ul_links {
+    position: static;
+    width: auto;
+    height: auto;
+    flex-direction: row;
+    gap: 2rem;
+  }
+  .link {
+    font-size: 1.2rem;
+    transition: all 0.3s;
+    padding: 0.2rem 0.7rem;
+  }
+  .link:hover {
+    background-color: rgba(133, 39, 195, 0.9921568627);
+  }
+}
 main {
   border: 2px solid black;
   display: flex;
