@@ -218,11 +218,11 @@ header i {
   display: none;
 }
 .menu_hamburguesa:checked + .ul_links {
-  height: 20vh;
+  height: 240px;
 }
 
 .list_icon {
-  color: #fff;
+  color: black;
   cursor: pointer;
 }
 

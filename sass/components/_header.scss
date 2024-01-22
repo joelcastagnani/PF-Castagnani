@@ -198,11 +198,11 @@ header {
     display: none;
     &:checked + .ul_links{
         // height: calc(100vh - $--altura_header);
-        height: 20vh;
+        height: 240px;
     }
 }
 .list_icon {
-    color: $--color_blanco;
+    color: black;
     cursor: pointer;
 }
 .ul_links{
