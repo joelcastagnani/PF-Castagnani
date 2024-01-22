@@ -16,54 +16,14 @@
 <body>
     <header>
         <div class="grid-encabezado">
-            <div class="hamburguesa">
-                <img src="../img/PNGs/hamburguesa.png" alt="logo de snowflake">
-                <ul class="lista-desplegable">
-
-                    <div class="contenedor-desplegable">
-
-                        <li class="item-desplegable">
-                            <a href="../index.html">
-                                INICIO
-                            </a>
-                        </li>
-
-                        <li class="item-desplegable">
-                            <a href="../pages/escuela.html" class="item-desplegable">
-                                LA ESCUELA
-                            </a>
-                        </li>
-
-                        <li class="item-desplegable">
-                            <a href="../pages/servicios.html" class="item-desplegable">
-                                SERVICIOS
-                            </a>
-                        </li>
-
-                        <li class="item-desplegable">
-                            <a href="../pages/tarifas.html" class="item-desplegable">
-                                TARIFAS
-                            </a>
-                        </li>
-
-                        <li class="item-desplegable">
-                            <a href="../pages/contacto.html" class="item-desplegable">
-                                CONTACTO
-                            </a>
-                        </li>
-
-
-                    </div>
-
-
-                </ul>
+            <div class="hamburguesa">                                
             </div>
 
             <H1><br>SNOWFLAKE <br> ESCUELA DE ESQUI Y SNOWBOARD</H1>
 
             <div class="contenedor-redes">
                 <a href="https://www.instagram.com/" target="_blank">
-                    <i class="bi-instagram btn estilo-redes"></i>
+                    <i class="bi-instagram estilo-redes"></i>
                 </a>
 
                 <a href="https://www.facebook.com" target="_blank">
@@ -75,6 +35,45 @@
                 </a>
             </div>
         </div>
+
+        <nav class="navbar">
+            <label class="labe_hamburguesa" for="menu_hamburguesa">
+                <svg 
+                    xmlns="http://www.w3.org/2000/svg" 
+                    width="35" 
+                    height="35" 
+                    fill="currentColor" 
+                    class="list_icon"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+                </svg>
+            </label>
+
+            <input class="menu_hamburguesa" type="checkbox" id="menu_hamburguesa">
+
+            <ul class="ul_links">
+                <li class="li_links">
+                    <a class="link" href="../index.html">Inicio</a>
+                </li>
+
+                <li class="li_links">
+                    <a class="link" href="../pages/escuela.html">La escuela</a>
+                </li>
+
+                <li class="li_links">
+                    <a class="link" href="../pages/servicios.html">Servicios</a>
+                </li>
+
+                <li class="li_links">
+                    <a class="link" href="../pages/tarifas.html">Tarifas</a>
+                </li>
+
+                <li class="li_links">
+                    <a class="link" href="../pages/contacto.html">Contacto</a>
+                </li>
+            </ul>
+        </nav>
 
         <nav class="flex-container-nav">
             <button onclick="window.location.href='../index.html'" class="header__nav-button">
