@@ -460,11 +460,11 @@ footer section ul {
   align-items: center;
   text-align: center;
   border: 2px solid black;
+  gap: 2rem;
 }
 
 /*Contenedor FLEX del formulario de contacto*/
 .flex-container-contacto {
-  width: 93vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
