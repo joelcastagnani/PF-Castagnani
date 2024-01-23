@@ -529,6 +529,9 @@ footer section ul {
   footer {
     font-size: large;
   }
+  .footer__img-size {
+    width: 100px;
+  }
   .sections-main {
     flex-direction: row;
   }
