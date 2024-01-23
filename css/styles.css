@@ -526,6 +526,9 @@ footer section ul {
     display: flex;
     gap: 1rem;
   }
+  footer {
+    font-size: large;
+  }
   .sections-main {
     flex-direction: row;
   }
@@ -577,6 +580,7 @@ footer section ul {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    font-size: large;
   }
   /*clases del navbar*/
   .navbar {
