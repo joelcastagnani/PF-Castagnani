@@ -503,6 +503,9 @@ footer section ul {
   margin: 1rem;
   width: 150px;
 }
+.contenedor__text_area-text-area {
+  padding: 0.3rem;
+}
 
 .main__tarifas--contenedor {
   display: flex;
