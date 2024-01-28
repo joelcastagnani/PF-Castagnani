@@ -364,6 +364,23 @@ main div section ul {
   padding: 1rem;
 }
 
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%;
+  }
+  to {
+    opacity: 1;
+    scale: 100%;
+  }
+}
+.animation {
+  view-timeline-name: --animation;
+  view-timeline-axis: block;
+  animation-timeline: --animation;
+  animation-name: show;
+}
+
 footer {
   display: flex;
   border: solid 2px black;
