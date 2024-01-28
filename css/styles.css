@@ -379,6 +379,8 @@ main div section ul {
   view-timeline-axis: block;
   animation-timeline: --animation;
   animation-name: show;
+  animation-range: entry 25% cover 50%;
+  animation-fill-mode: both;
 }
 
 footer {
