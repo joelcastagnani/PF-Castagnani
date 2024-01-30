@@ -310,6 +310,7 @@ main div section ul {
 .flex-item-info {
   border: solid black 2px;
   background-color: rgba(1, 1, 1, 0.501);
+  width: 100%;
 }
 .flex-item-info:hover {
   background-color: black;

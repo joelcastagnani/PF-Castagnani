@@ -49,11 +49,12 @@ main {
 .flex-item-info{
     border: solid black 2px;
     background-color: rgba(1, 1, 1, 0.501);
+    width: 100%;
     &:hover{
         background-color: black;
         border: 2px solid white;
         color: white;
-        padding: 0.5rem 1rem;
+        padding: .5rem 1rem;
     }
 }
 .carousel-main {
