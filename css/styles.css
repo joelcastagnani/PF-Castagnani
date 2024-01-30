@@ -107,15 +107,15 @@ header i {
 }
 .contenedor-redes a:nth-child(1):hover {
   background-color: crimson;
-  height: 160%;
+  height: 40px;
 }
 .contenedor-redes a:nth-child(2):hover {
   background-color: blue;
-  height: 160%;
+  height: 40px;
 }
 .contenedor-redes a:nth-child(3):hover {
   background-color: cadetblue;
-  height: 160%;
+  height: 40px;
 }
 
 /*Contenedor GRID del encabezado*/
